@@ -1,0 +1,232 @@
+/home/yzhang2018@ec-nantes.fr/test/guided-diffusion-us/OPENAI_LOGDIR
+
+:/micromamba/yzhang2018@ec-nantes.fr/envs/guided-diffusion/lib/
+Logging to /home/yzhang2018@ec-nantes.fr/test/guided-diffusion-us/OPENAI_LOGDIR
+creating model and diffusion...
+creating data loader...
+training...
+loading model from checkpoint: /home/yzhang2018@ec-nantes.fr/test/guided-diffusion-us/OPENAI_LOGDIR/model000000.pt...
+----------------------------
+| grad_norm     | 0.0223   |
+| lg_loss_scale | 20       |
+| loss          | 0.00246  |
+| loss_q0       | 0.0143   |
+| loss_q1       | 0.00181  |
+| loss_q2       | 0.000277 |
+| loss_q3       | 2.44e-05 |
+| mse           | 0.00243  |
+| mse_q0        | 0.0142   |
+| mse_q1        | 0.00179  |
+| mse_q2        | 0.000275 |
+| mse_q3        | 2.4e-05  |
+| param_norm    | 1.36e+03 |
+| samples       | 32       |
+| step          | 0        |
+| vb            | 2.58e-05 |
+| vb_q0         | 0.000166 |
+| vb_q1         | 1.34e-05 |
+| vb_q2         | 2.31e-06 |
+| vb_q3         | 3.33e-07 |
+----------------------------
+saving model 0...
+saving model 0.9999...
+----------------------------
+| grad_norm     | 0.116    |
+| lg_loss_scale | 20       |
+| loss          | 0.0066   |
+| loss_q0       | 0.0208   |
+| loss_q1       | 0.00161  |
+| loss_q2       | 0.000237 |
+| loss_q3       | 3.78e-05 |
+| mse           | 0.00619  |
+| mse_q0        | 0.0194   |
+| mse_q1        | 0.0016   |
+| mse_q2        | 0.000235 |
+| mse_q3        | 3.73e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 672      |
+| step          | 20       |
+| vb            | 0.000414 |
+| vb_q0         | 0.00139  |
+| vb_q1         | 1.18e-05 |
+| vb_q2         | 2.11e-06 |
+| vb_q3         | 4.95e-07 |
+----------------------------
+----------------------------
+| grad_norm     | 0.059    |
+| lg_loss_scale | 20       |
+| loss          | 0.00843  |
+| loss_q0       | 0.0326   |
+| loss_q1       | 0.00131  |
+| loss_q2       | 0.000136 |
+| loss_q3       | 1.7e-05  |
+| mse           | 0.00618  |
+| mse_q0        | 0.0235   |
+| mse_q1        | 0.0013   |
+| mse_q2        | 0.000135 |
+| mse_q3        | 1.68e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 1.31e+03 |
+| step          | 40       |
+| vb            | 0.00225  |
+| vb_q0         | 0.0091   |
+| vb_q1         | 9.63e-06 |
+| vb_q2         | 1.19e-06 |
+| vb_q3         | 2.24e-07 |
+----------------------------
+Found NaN, decreased lg_loss_scale to 19.044000000000054
+----------------------------
+| grad_norm     | 0.0729   |
+| lg_loss_scale | 19.2     |
+| loss          | 0.0157   |
+| loss_q0       | 0.055    |
+| loss_q1       | 0.00158  |
+| loss_q2       | 0.000126 |
+| loss_q3       | 1.44e-05 |
+| mse           | 0.00846  |
+| mse_q0        | 0.029    |
+| mse_q1        | 0.00157  |
+| mse_q2        | 0.000125 |
+| mse_q3        | 1.42e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 1.95e+03 |
+| step          | 60       |
+| vb            | 0.00724  |
+| vb_q0         | 0.026    |
+| vb_q1         | 1.15e-05 |
+| vb_q2         | 1.1e-06  |
+| vb_q3         | 1.92e-07 |
+----------------------------
+----------------------------
+| grad_norm     | 0.049    |
+| lg_loss_scale | 19.1     |
+| loss          | 0.00464  |
+| loss_q0       | 0.0187   |
+| loss_q1       | 0.00124  |
+| loss_q2       | 0.000121 |
+| loss_q3       | 1.48e-05 |
+| mse           | 0.00443  |
+| mse_q0        | 0.0179   |
+| mse_q1        | 0.00123  |
+| mse_q2        | 0.00012  |
+| mse_q3        | 1.47e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 2.59e+03 |
+| step          | 80       |
+| vb            | 0.000202 |
+| vb_q0         | 0.00087  |
+| vb_q1         | 9.15e-06 |
+| vb_q2         | 1.08e-06 |
+| vb_q3         | 1.88e-07 |
+----------------------------
+Found NaN, decreased lg_loss_scale to 18.093000000000114
+----------------------------
+| grad_norm     | 0.0425   |
+| lg_loss_scale | 18.8     |
+| loss          | 0.00951  |
+| loss_q0       | 0.0346   |
+| loss_q1       | 0.00155  |
+| loss_q2       | 0.000136 |
+| loss_q3       | 1.39e-05 |
+| mse           | 0.00655  |
+| mse_q0        | 0.0234   |
+| mse_q1        | 0.00154  |
+| mse_q2        | 0.000135 |
+| mse_q3        | 1.37e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 3.23e+03 |
+| step          | 100      |
+| vb            | 0.00296  |
+| vb_q0         | 0.0112   |
+| vb_q1         | 1.14e-05 |
+| vb_q2         | 1.2e-06  |
+| vb_q3         | 1.82e-07 |
+----------------------------
+----------------------------
+| grad_norm     | 0.0397   |
+| lg_loss_scale | 18.1     |
+| loss          | 0.00563  |
+| loss_q0       | 0.0216   |
+| loss_q1       | 0.00139  |
+| loss_q2       | 0.000128 |
+| loss_q3       | 1.29e-05 |
+| mse           | 0.00534  |
+| mse_q0        | 0.0204   |
+| mse_q1        | 0.00138  |
+| mse_q2        | 0.000127 |
+| mse_q3        | 1.27e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 3.87e+03 |
+| step          | 120      |
+| vb            | 0.000291 |
+| vb_q0         | 0.00119  |
+| vb_q1         | 1.03e-05 |
+| vb_q2         | 1.11e-06 |
+| vb_q3         | 1.69e-07 |
+----------------------------
+----------------------------
+| grad_norm     | 0.0518   |
+| lg_loss_scale | 18.1     |
+| loss          | 0.00727  |
+| loss_q0       | 0.0259   |
+| loss_q1       | 0.00182  |
+| loss_q2       | 0.000144 |
+| loss_q3       | 1.43e-05 |
+| mse           | 0.00639  |
+| mse_q0        | 0.0226   |
+| mse_q1        | 0.00181  |
+| mse_q2        | 0.000143 |
+| mse_q3        | 1.42e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 4.51e+03 |
+| step          | 140      |
+| vb            | 0.000877 |
+| vb_q0         | 0.00333  |
+| vb_q1         | 1.34e-05 |
+| vb_q2         | 1.25e-06 |
+| vb_q3         | 1.78e-07 |
+----------------------------
+----------------------------
+| grad_norm     | 0.0896   |
+| lg_loss_scale | 18.1     |
+| loss          | 0.0118   |
+| loss_q0       | 0.0414   |
+| loss_q1       | 0.00151  |
+| loss_q2       | 0.000147 |
+| loss_q3       | 1.84e-05 |
+| mse           | 0.00857  |
+| mse_q0        | 0.0298   |
+| mse_q1        | 0.0015   |
+| mse_q2        | 0.000146 |
+| mse_q3        | 1.81e-05 |
+| param_norm    | 1.36e+03 |
+| samples       | 5.15e+03 |
+| step          | 160      |
+| vb            | 0.0032   |
+| vb_q0         | 0.0116   |
+| vb_q1         | 1.11e-05 |
+| vb_q2         | 1.26e-06 |
+| vb_q3         | 2.36e-07 |
+----------------------------
+----------------------------
+| grad_norm     | 0.0612   |
+| lg_loss_scale | 18.2     |
+| loss          | 0.00536  |
+| loss_q0       | 0.0245   |
+| loss_q1       | 0.00127  |
+| loss_q2       | 0.000108 |
+| loss_q3       | 1.93e-05 |
+| mse           | 0.00476  |
+| mse_q0        | 0.0215   |
+| mse_q1        | 0.00126  |
+| mse_q2        | 0.000107 |
+| mse_q3        | 1.9e-05  |
+| param_norm    | 1.36e+03 |
+| samples       | 5.79e+03 |
+| step          | 180      |
+| vb            | 0.000603 |
+| vb_q0         | 0.00293  |
+| vb_q1         | 9.39e-06 |
+| vb_q2         | 9.62e-07 |
+| vb_q3         | 2.44e-07 |
+----------------------------
