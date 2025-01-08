@@ -17,9 +17,7 @@ Based on the [ImageNet pre-trained diffusion model](https://openaipublic.blob.co
 
 ## Other notes:
 #### Environment
-- .sif in this repository is newer than that in the guided-diffusion repository. The new one has an h5py python package for loading the ultrasound datasets
-
-- environment.yml (tested on HPC) corresponds to the .sif file
+- environment.yml (tested on HPC) (has an h5py python package for loading the ultrasound datasets)
 #### The way to check the parameters of a specific layer
 For example, we have a model loaded from torchvison
 ```
